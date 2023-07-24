@@ -2,6 +2,7 @@
   "expo": {
     "name": "testflight-android",
     "slug": "testflight-android",
+    "scheme": "testflight",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      },
+      "permissions": ["android.permission.REQUEST_INSTALL_PACKAGES"]
     }
   }
 }
